@@ -32,26 +32,27 @@ public class FinishActivity extends AppCompatActivity {
 
         if(score < 12) {
             textResult.setText(getResources().getStringArray(R.array.options_results)[0]);
-            textResult.setTextColor(getColor(R.color.success));
+            textResult.setTextColor(getColor(R.color.colorSuccess));
         } else if(score < 18) {
             textResult.setText(getResources().getStringArray(R.array.options_results)[1]);
-            textResult.setTextColor(getColor(R.color.success));
+            textResult.setTextColor(getColor(R.color.colorSuccess));
         } else if(score < 25) {
             textResult.setText(getResources().getStringArray(R.array.options_results)[2]);
-            textResult.setTextColor(getColor(R.color.warning));
+            textResult.setTextColor(getColor(R.color.colorWarning));
         } else if (score < 32) {
             textResult.setText(getResources().getStringArray(R.array.options_results)[3]);
-            textResult.setTextColor(getColor(R.color.warning));
+            textResult.setTextColor(getColor(R.color.colorWarning));
         } else if (score < 41) {
             textResult.setText(getResources().getStringArray(R.array.options_results)[4]);
-            textResult.setTextColor(getColor(R.color.danger));
+            textResult.setTextColor(getColor(R.color.colorDanger));
         } else {
             textResult.setText(getResources().getStringArray(R.array.options_results)[5]);
-            textResult.setTextColor(getColor(R.color.danger));
+            textResult.setTextColor(getColor(R.color.colorDanger));
         }
 
         btnRestart.setOnClickListener(v -> {
             Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(intent);
         });
     }

@@ -57,7 +57,11 @@ public class OptionActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        handleBack();
+        if(indexOptionCurrent > 0) {
+            handleBack();
+        } else {
+            super.onBackPressed();
+        }
     }
 
     private void handleBack() {
