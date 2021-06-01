@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">Health</string>
+
+    <string name = "text_header">Find out if you have a chance of having a heart attack</string>
+    <string name="text_info">This assessment is intended to estimate your cardiac risk and is not a substitute for a medical assessment. If the result presents any risk, we advise you to seek medical advice. Remember that prevention and early diagnosis can save your life.</string>
+    <string name="text_score">Score</string>
+    <string name = "text_count">0/0</string>
+    <string name = "text_thank">Thank you for participating !!!</string>
+
+    <string name="text_results_one">1 - No risk - 6 to 11</string>
+    <string name = "text_results_two">2 - Risk below average - from 12 to 17</string>
+    <string name="text_results_three">3 - Medium risk - 18 to 24</string>
+    <string name="text_results_four">4 - Moderate risk - from 25 to 31</string>
+    <string name="text_results_five">5 - High risk - 32 to 40</string>
+    <string name="text_results_six">6 - Very high risk - 41 to 62</string>
+
+    <string name="placeholder_label">Label</string>
+    <string name="placeholder_radio">Radio button</string>
+    <string name = "placeholder_score">Punctuation</string>
+    <string name="placeholder_result">Score result</string>
+
+    <string name="btn_start">Start</string>
+    <string name="btn_restart">Restart</string>
+    <string name = "btn_next">Next</string>
+    <string name="btn_finish">Finish</string>
+    <string name="btn_back">Back</string>
+
+    <string-array name="options_results">
+        <item>No risk</item>
+        <item>Risk below average</item>
+        <item>Average risk</item>
+        <item>Moderate risk</item>
+        <item>High risk</item>
+        <item>Too high risk</item>
+   </string-array>
+
+    <string name="label_age">Age</string>
+    <string-array name="options_age">
+        <item>10 to 20 years old</item>
+        <item>21 to 30 years old</item>
+        <item>31 to 40 years old</item>
+        <item>41 to 50 years old</item>
+        <item>51 to 60 years old</item>
+        <item>Over 61</item>
+   </string-array>
+
+    <string name = "label_sex">Gender</string>
+    <string-array name="options_sex">
+        <item>Female under 40</item>
+        <item>Female from 40 to 50 years old</item>
+        <item>Female over 50</item>
+        <item>Male</item>
+        <item>Short male</item>
+        <item>Small and bald male</item>
+   </string-array>
+
+    <string name="label_weight">Weight</string>
+    <string-array name = "options_weight">
+        <item>Less than 2.3kg of normal weight</item>
+        <item>Less than 2.3 to more than 2.3 kg of normal weight</item>
+        <item>2.4 to 9.0Kg above normal weight</item>
+        <item>From 9.1 to 15.9 kg over normal weight</item>
+        <item>From 16 to 22.9Kg above normal weight</item>
+        <item>More than 23kg above normal weight</item>
+   </string-array>
+
+    <string name="label_activity">Activity</string>
+    <string-array name="options_activity">
+        <item>Intense professional and recreational effort</item>
+        <item>Moderate professional and recreational effort</item>
+        <item>Sedentary work and intense recreational effort</item>
+        <item>Sedentary work and moderate recreational effort</item>
+        <item>Sedentary work and light recreational effort</item>
+        <item>Complete absence of any exercise</item>
+   </string-array>
+
+    <string name="label_smokes">Smokes</string>
+    <string-array name="options_smokes">
+        <item>Non-smoker</item>
+        <item>Cigar and/or pipe</item>
+        <item>10 cigarettes or less per day</item>
+        <item>11 to 20 cigarettes a day</item>
+        <item>21 to 30 cigarettes a day</item>
+        <item>more than 31 cigarettes a day</item>
+   </string-array>
+
+    <string name="label_pressure">Pressure</string>
+    <string-array name="options_pressure">
+        <item>Systolic from 100 to 119 mmHg</item>
+        <item>Systolic from 120 to 139 mmHg</item>
+        <item>Systolic from 140 to 159 mmHg</item>
+        <item>Systolic from 160 to 179 mmHg</item>
+        <item>Systolic from 180 to 199 mmHg</item>
+        <item>Systolic 200 mmHg or more</item>
+   </string-array>
+
+    <string name="label_illness_in_family">Illness in the family</string>
+    <string-array name="options_illness_in_family">
+        <item>No known history of heart disease</item>
+        <item>1 relative with heart disease and over 60</item>
+        <item>2 relatives with heart disease and over 60</item>
+        <item>1 relative with heart disease and less than 60 years old</item>
+        <item>2 relatives with heart disease and under 60 years old</item>
+        <item>3 relative with heart disease and under 60 years old</item>
+   </string-array>
+
+    <string name="label_cholesterol">Cholesterol</string>
+    <string-array name="options_cholesterol">
+        <item>Below 180 or the diet does not contain animal fats</item>
+        <item>From 181 to 205 or the diet contains 10% animal fats</item>
+        <item>From 206 to 230 or the diet contains 20% animal fats</item>
+        <item>From 231 to 255 or the diet contains 30% animal fats</item>
+        <item>From 256 to 280 or the diet contains 40% animal fats</item>
+        <item>Above 281 or the diet contains 50% animal fats</item>
+   </string-array>
+</resources>
